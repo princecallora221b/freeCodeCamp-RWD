@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8"/>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+         <h1 id="title">SURVEY FORM</h1>
+         <p id="description">This is a project survey form by Prince</p>
+          <form id="survey-form">
+            <fieldset class="fields">
+                <legend>Personal Information</legend>
+                <label id ="name-label" for="name">
+                  Name: <input id="name" type="text" placeholder="Your full name" required/>
+                </label>
+                <label id="email-label" for="email">
+                  Email: <input id="email" type="email" required placeholder="Enter valid email"/>
+                </label>
+                <label id="number-label" for="number" >
+                  Age: <input id="number" type="number" min="18" max="120" placeholder="Age"/>
+                </label>
+            </fieldset>
+            <fieldset class="fields">
+                <legend>Games</legend>
+                <label for="dropdown">
+                  What genre of games do you play? 
+                  <select id="dropdown">
+                    <option>-select one-</option>
+                    <option>RPG</option>
+                    <option>FPS</option>
+                    <option>Gacha</option>
+                    <option>Sports</option>
+                    <option>Simulation</option>
+                  </select>
+                </label>
+                <label for="radio">
+                  What type of gamer are you? <br>
+                  <input id="radio" type="radio" value="survey-form" name="gamer">Casual
+                  <input id="radio" value="survey-form" name="gamer" type="radio">Pro
+                </label>
+                <label for="check">
+                    What games have you played among these options? <br>
+                  <input id="check" type="checkbox" name="game" value="survey-form"> Honkai: Star Rail
+                  <input id="check" type="checkbox" name="game"> Final Fantasy 7 Remake
+                  <input id="check" type="checkbox" name="game"> Danganronpa Decadence
+                </label>
+            </fieldset>  
+            <fieldset class="fields">
+              <legend>Additional comments</legend>
+              <label for="comments">
+                <textarea id="comments" rows="10" cols="4" value="survey-form">
+                </textarea>
+              </label>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit Survey">
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

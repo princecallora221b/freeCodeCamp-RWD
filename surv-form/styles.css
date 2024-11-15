@@ -1,0 +1,84 @@
+body {
+    width:100%;
+    height:100vh;
+    font-family: Roboto, Arial, sans, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/futuristic-video-game-controller-background-with-text-space_1017-54730.jpg?t=st=1731427447~exp=1731431047~hmac=2d21c33b91632a2fbf2ab6e575d6a81ea18741d481e47d914deffbd9bd0f18a7&w=996);
+  
+  }
+  
+  h1{
+    font-size: 2.5rem;
+  }
+  
+  h1, p{
+    display: block;
+    margin: auto;
+    padding: 0 1em;
+    text-align: center;
+    color: #e3b6b1;
+  }
+  
+  label{
+    display: block;
+    margin: 0.5rem 1em;
+    padding: auto 1em;
+    color: #e3b6b1;
+  }
+  
+  
+  .container{
+    display: flex;
+    background-color:rgba(82, 44, 93, 0.75);
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 20px;
+  }
+  
+  .fields{
+    width: 100%;
+    height:auto;
+    border: 2px solid #150016;
+    border-radius: 1rem;
+    margin: 1em 0;
+    padding: 2rem 0;
+    background-color: #29104A;
+  }
+  
+  
+  input, textarea, select{
+    margin: 1em 0 1em 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #FFE3D8;
+  }
+  
+  input[type="radio"], input[type="checkbox"]{
+    width: unset;
+    margin: 1em;
+    padding: 2em;
+    display: inline;
+    vertical-align: middle;
+  }
+  
+  #submit{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 0.5em;
+  }
+  
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+  
+  legend{
+    font-style: oblique;
+    margin-left: 1em;
+    text-align: left;
+    color: #ffe3d8;
+  }
+  
