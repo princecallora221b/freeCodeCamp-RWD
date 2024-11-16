@@ -31,12 +31,13 @@ body {
     background-color:rgba(82, 44, 93, 0.75);
     justify-content: center;
     align-items: center;
+    align-content: center;
     flex-flow: column wrap;
     padding: 20px;
   }
   
   .fields{
-    width: 100%;
+    width: 80%;
     height:auto;
     border: 2px solid #150016;
     border-radius: 1rem;
@@ -54,11 +55,7 @@ body {
   }
   
   input[type="radio"], input[type="checkbox"]{
-    width: unset;
-    margin: 1em;
-    padding: 2em;
-    display: inline;
-    vertical-align: middle;
+    width: 80px;
   }
   
   #submit{
@@ -81,4 +78,10 @@ body {
     text-align: left;
     color: #ffe3d8;
   }
-  
+ button{
+  color: #29104A;
+ }
+ button:hover{
+      background-color: #29104A;
+      color: #e3b6b1;
+  }
